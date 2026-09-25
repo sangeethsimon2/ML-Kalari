@@ -1,4 +1,5 @@
-AUDIO_FILE = "test_files/sample-speech-1m.wav"
+AUDIO_FILE = ""
+
 CONCURRENCY_LEVELS = [
     1,
     2,
@@ -8,5 +9,7 @@ CONCURRENCY_LEVELS = [
     32,
     64,
     128,
-    256
+    256,
+    512,
+    1024
 ]
