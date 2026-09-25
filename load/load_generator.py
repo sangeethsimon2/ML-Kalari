@@ -3,7 +3,7 @@ from concurrent.futures import ThreadPoolExecutor
 # To acess results from each thread without waiting for the other threads
 from concurrent.futures import as_completed 
 # Custom transcription pay load
-from client.transcription import transcribe 
+from client.transcription import transcribe
 
 """Central object that will control the load testing"""
 class LoadGenerator:
